@@ -85,7 +85,19 @@ So, out of 3000 births, five out of eleven sets of boy-boy twins would be identi
 ###Q8. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+From a quora response: 
+
+The essential difference between Bayesian and Frequentist statisticians is in how probability is used. Frequentists use probability only to model certain processes broadly described as "sampling." Bayesians use probability more widely to model both sampling and other kinds of uncertainty. To use the same example as in my answer to What is a confidence interval in layman's terms?, suppose we are interested in the average height h in inches of all adult males in the U.S. 
+
+A Bayesian statistician would begin with a "prior distribution," meaning a probability distribution reflecting the state of knowledge about h before collecting any data. We do clearly have some prior information: h is certainly between 60 and 84 inches, and more likely near the middle of this range. After collecting some data (e.g. a random sample from the U.S. of adult males), the Bayesian would update the prior distribution in light of the data to get a new probability distribution for h called the posterior distribution. The posterior distribution reflects our state of knowledge about h after collecting data. Using the posterior distribution, the Bayesian can make a statement such as:
+
+P(70≤h≤74)=95
+
+Frequentists do not allow themselves to make such statements. For a Frequentist, h is simply an unknown constant which either lies in the range [70, 74] or does not. To the Frequentist, the probability statement above is meaningless. Frequentists only allow probability statements about sampling. An example of a legal probability statement for a Frequentist is:
+
+P(70≤H≤74)=95
+
+where H is a random draw from the population of adult males in the U.S. Frequentist techniques, such as confidence intervals and hypothesis tests, provide ways to make statements that resemble Bayesian probability statements but which only use probability in the Frequentist way. More details specifically about confidence intervals are in Michael Hochster's answer to What is a confidence interval in layman's terms?
 
 ---
 
